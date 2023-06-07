@@ -2,88 +2,74 @@
 <testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-23T20:20:30 CDT" name="Suite" finished-at="2023-04-23T20:21:42 CDT" duration-ms="72850">
+  <suite started-at="2023-06-04T21:28:52 CDT" name="Default suite" finished-at="2023-06-04T21:30:14 CDT" duration-ms="82168">
     <groups>
       <group name="Regression">
-        <method signature="tc1.browserOpen()[pri:1, instance:testCase.tc1@55b7a4e0]" name="browserOpen" class="testCase.tc1"/>
-        <method signature="tc1.cart()[pri:10, instance:testCase.tc1@55b7a4e0]" name="cart" class="testCase.tc1"/>
-        <method signature="tc1.clickCancel()[pri:3, instance:testCase.tc1@55b7a4e0]" name="clickCancel" class="testCase.tc1"/>
-        <method signature="tc1.clickSearch()[pri:6, instance:testCase.tc1@55b7a4e0]" name="clickSearch" class="testCase.tc1"/>
-        <method signature="tc1.closeBrowser()[pri:11, instance:testCase.tc1@55b7a4e0]" name="closeBrowser" class="testCase.tc1"/>
-        <method signature="tc1.keyboardEvent()[pri:9, instance:testCase.tc1@55b7a4e0]" name="keyboardEvent" class="testCase.tc1"/>
-        <method signature="tc1.newTab()[pri:7, instance:testCase.tc1@55b7a4e0]" name="newTab" class="testCase.tc1"/>
-        <method signature="tc1.urlOpen()[pri:2, instance:testCase.tc1@55b7a4e0]" name="urlOpen" class="testCase.tc1"/>
-        <method signature="tc1.verifyPrice()[pri:8, instance:testCase.tc1@55b7a4e0]" name="verifyPrice" class="testCase.tc1"/>
+        <method signature="flip_kart_Test.browserOpen()[pri:1, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="browserOpen" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.cart()[pri:10, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="cart" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.clickCancel()[pri:3, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="clickCancel" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.clickSearch()[pri:6, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="clickSearch" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.closeBrowser()[pri:11, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="closeBrowser" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.keyboardEvent()[pri:9, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="keyboardEvent" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.newTab()[pri:7, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="newTab" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.urlOpen()[pri:2, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="urlOpen" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.verifyPrice()[pri:8, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="verifyPrice" class="flip_kart_tc.flip_kart_Test"/>
       </group> <!-- Regression -->
       <group name="sanity">
-        <method signature="tc1.browserOpen()[pri:1, instance:testCase.tc1@55b7a4e0]" name="browserOpen" class="testCase.tc1"/>
-        <method signature="tc1.clickCancel()[pri:3, instance:testCase.tc1@55b7a4e0]" name="clickCancel" class="testCase.tc1"/>
-        <method signature="tc1.closeBrowser()[pri:11, instance:testCase.tc1@55b7a4e0]" name="closeBrowser" class="testCase.tc1"/>
-        <method signature="tc1.flipkart()[pri:4, instance:testCase.tc1@55b7a4e0]" name="flipkart" class="testCase.tc1"/>
-        <method signature="tc1.moveSlide()[pri:5, instance:testCase.tc1@55b7a4e0]" name="moveSlide" class="testCase.tc1"/>
-        <method signature="tc1.urlOpen()[pri:2, instance:testCase.tc1@55b7a4e0]" name="urlOpen" class="testCase.tc1"/>
+        <method signature="flip_kart_Test.browserOpen()[pri:1, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="browserOpen" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.clickCancel()[pri:3, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="clickCancel" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.closeBrowser()[pri:11, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="closeBrowser" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.flipkart()[pri:4, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="flipkart" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.moveSlide()[pri:5, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="moveSlide" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.urlOpen()[pri:2, instance:flip_kart_tc.flip_kart_Test@6379eb]" name="urlOpen" class="flip_kart_tc.flip_kart_Test"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-04-23T20:20:30 CDT" name="Test" finished-at="2023-04-23T20:21:42 CDT" duration-ms="72850">
-      <class name="testCase.tc1">
-        <test-method signature="browserOpen()[pri:1, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:20:30 CDT" name="browserOpen" finished-at="2023-04-23T20:20:32 CDT" duration-ms="2559" status="PASS">
+    <test started-at="2023-06-04T21:28:52 CDT" name="Default test" finished-at="2023-06-04T21:30:14 CDT" duration-ms="82168">
+      <class name="flip_kart_tc.flip_kart_Test">
+        <test-method signature="browserOpen()[pri:1, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:28:52 CDT" name="browserOpen" finished-at="2023-06-04T21:28:55 CDT" duration-ms="3802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserOpen -->
-        <test-method signature="urlOpen()[pri:2, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:20:32 CDT" name="urlOpen" finished-at="2023-04-23T20:20:42 CDT" duration-ms="9792" status="PASS">
+        <test-method signature="urlOpen()[pri:2, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:28:55 CDT" name="urlOpen" finished-at="2023-06-04T21:29:05 CDT" duration-ms="9059" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- urlOpen -->
-        <test-method signature="clickCancel()[pri:3, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:20:42 CDT" name="clickCancel" finished-at="2023-04-23T20:20:42 CDT" duration-ms="134" status="PASS">
+        <test-method signature="clickCancel()[pri:3, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:29:05 CDT" name="clickCancel" finished-at="2023-06-04T21:29:05 CDT" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickCancel -->
-        <test-method signature="flipkart()[pri:4, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:20:42 CDT" name="flipkart" finished-at="2023-04-23T20:21:00 CDT" duration-ms="17794" status="PASS">
+        <test-method signature="flipkart()[pri:4, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:29:05 CDT" name="flipkart" finished-at="2023-06-04T21:29:22 CDT" duration-ms="17577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flipkart -->
-        <test-method signature="moveSlide()[pri:5, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:21:00 CDT" name="moveSlide" finished-at="2023-04-23T20:21:06 CDT" duration-ms="5546" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- moveSlide -->
-        <test-method signature="clickSearch()[pri:6, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:21:06 CDT" name="clickSearch" finished-at="2023-04-23T20:21:16 CDT" duration-ms="10489" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickSearch -->
-        <test-method signature="newTab()[pri:7, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:21:16 CDT" name="newTab" finished-at="2023-04-23T20:21:21 CDT" duration-ms="5045" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- newTab -->
-        <test-method signature="verifyPrice()[pri:8, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:21:21 CDT" name="verifyPrice" finished-at="2023-04-23T20:21:21 CDT" duration-ms="74" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPrice -->
-        <test-method signature="keyboardEvent()[pri:9, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:21:21 CDT" name="keyboardEvent" finished-at="2023-04-23T20:21:37 CDT" duration-ms="15730" status="FAIL">
+        <test-method signature="moveSlide()[pri:5, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:29:22 CDT" name="moveSlide" finished-at="2023-06-04T21:29:27 CDT" duration-ms="5026" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class="YxlyDn"]"}
-  (Session info: chrome=112.0.5615.138)
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/div/div[1]/div/div[1]/div/section[2]/div[3]/div[1]/div[1]/div"}
+  (Session info: chrome=113.0.5672.129)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6fd065a4901e2c979be988f22cc10886, findElement {using=xpath, value=//span[@class="YxlyDn"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\akeem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58444/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6fd065a4901e2c979be988f22cc10886]]>
+Command: [a1ba20aa8533101628eec088c41bed76, findElement {using=xpath, value=/html/body/div[1]/div/div[3]/div/div[1]/div/div[1]/div/section[2]/div[3]/div[1]/div[1]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\akeem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63328}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63328/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1ba20aa8533101628eec088c41bed76]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class="YxlyDn"]"}
-  (Session info: chrome=112.0.5615.138)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[1]/div/div[3]/div/div[1]/div/div[1]/div/section[2]/div[3]/div[1]/div[1]/div"}
+  (Session info: chrome=113.0.5672.129)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.8.3', revision: 'e5e76298c3'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6fd065a4901e2c979be988f22cc10886, findElement {using=xpath, value=//span[@class="YxlyDn"]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\akeem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58444}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58444/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6fd065a4901e2c979be988f22cc10886
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+Command: [a1ba20aa8533101628eec088c41bed76, findElement {using=xpath, value=/html/body/div[1]/div/div[3]/div/div[1]/div/div[1]/div/section[2]/div[3]/div[1]/div[1]/div}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.129, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\akeem\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63328}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63328/devtoo..., se:cdpVersion: 113.0.5672.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1ba20aa8533101628eec088c41bed76
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
@@ -95,9 +81,11 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at testCase.tc1.keyboardEvent(tc1.java:99)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at flip_kart_tc.flip_kart_Test.moveSlide(flip_kart_Test.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
@@ -127,16 +115,32 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
+        </test-method> <!-- moveSlide -->
+        <test-method signature="clickSearch()[pri:6, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:29:27 CDT" name="clickSearch" finished-at="2023-06-04T21:29:38 CDT" duration-ms="10294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method signature="newTab()[pri:7, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:29:38 CDT" name="newTab" finished-at="2023-06-04T21:29:43 CDT" duration-ms="5026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTab -->
+        <test-method signature="verifyPrice()[pri:8, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:29:43 CDT" name="verifyPrice" finished-at="2023-06-04T21:29:43 CDT" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrice -->
+        <test-method signature="keyboardEvent()[pri:9, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:29:43 CDT" name="keyboardEvent" finished-at="2023-06-04T21:30:08 CDT" duration-ms="25798" status="PASS">
+          <reporter-output>
+          </reporter-output>
         </test-method> <!-- keyboardEvent -->
-        <test-method signature="cart()[pri:10, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:21:37 CDT" name="cart" finished-at="2023-04-23T20:21:37 CDT" duration-ms="27" status="PASS">
+        <test-method signature="cart()[pri:10, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:30:08 CDT" name="cart" finished-at="2023-06-04T21:30:08 CDT" duration-ms="67" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cart -->
-        <test-method signature="closeBrowser()[pri:11, instance:testCase.tc1@55b7a4e0]" started-at="2023-04-23T20:21:37 CDT" name="closeBrowser" finished-at="2023-04-23T20:21:42 CDT" duration-ms="5577" status="PASS">
+        <test-method signature="closeBrowser()[pri:11, instance:flip_kart_tc.flip_kart_Test@6379eb]" started-at="2023-06-04T21:30:08 CDT" name="closeBrowser" finished-at="2023-06-04T21:30:14 CDT" duration-ms="5344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- testCase.tc1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- flip_kart_tc.flip_kart_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

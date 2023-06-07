@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-29T18:23:57 CDT" name="Command line suite" finished-at="2023-05-29T18:25:46 CDT" duration-ms="108969">
+    <groups>
+      <group name="Regression">
+        <method signature="flip_kart_Test.browserOpen()[pri:1, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="browserOpen" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.urlOpen()[pri:2, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="urlOpen" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.clickCancel()[pri:3, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="clickCancel" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.clickSearch()[pri:6, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="clickSearch" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.newTab()[pri:7, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="newTab" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.verifyPrice()[pri:8, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="verifyPrice" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.keyboardEvent()[pri:9, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="keyboardEvent" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.cart()[pri:10, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="cart" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.closeBrowser()[pri:11, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="closeBrowser" class="flip_kart_tc.flip_kart_Test"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="flip_kart_Test.browserOpen()[pri:1, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="browserOpen" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.urlOpen()[pri:2, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="urlOpen" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.clickCancel()[pri:3, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="clickCancel" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.flipkart()[pri:4, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="flipkart" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.moveSlide()[pri:5, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="moveSlide" class="flip_kart_tc.flip_kart_Test"/>
+        <method signature="flip_kart_Test.closeBrowser()[pri:11, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" name="closeBrowser" class="flip_kart_tc.flip_kart_Test"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2023-05-29T18:23:57 CDT" name="Command line test" finished-at="2023-05-29T18:25:46 CDT" duration-ms="108969">
+      <class name="flip_kart_tc.facebook_Test">
+        <test-method is-config="true" signature="openURL()[pri:0, instance:flip_kart_tc.facebook_Test@1a0dcaa]" started-at="2023-05-29T18:23:57 CDT" name="openURL" finished-at="2023-05-29T18:24:05 CDT" duration-ms="7567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="fillDetails()[pri:0, instance:flip_kart_tc.facebook_Test@1a0dcaa]" started-at="2023-05-29T18:24:05 CDT" name="fillDetails" finished-at="2023-05-29T18:24:11 CDT" duration-ms="5473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:flip_kart_tc.facebook_Test@1a0dcaa]" started-at="2023-05-29T18:24:11 CDT" name="quit" finished-at="2023-05-29T18:24:11 CDT" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="openURL()[pri:0, instance:flip_kart_tc.facebook_Test@1a0dcaa]" started-at="2023-05-29T18:24:11 CDT" name="openURL" finished-at="2023-05-29T18:24:14 CDT" duration-ms="2457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openURL -->
+        <test-method signature="fillDetails2()[pri:0, instance:flip_kart_tc.facebook_Test@1a0dcaa]" started-at="2023-05-29T18:24:14 CDT" name="fillDetails2" finished-at="2023-05-29T18:24:19 CDT" duration-ms="5416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillDetails2 -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:flip_kart_tc.facebook_Test@1a0dcaa]" started-at="2023-05-29T18:24:19 CDT" name="quit" finished-at="2023-05-29T18:24:20 CDT" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- flip_kart_tc.facebook_Test -->
+      <class name="flip_kart_tc.flip_kart_Test">
+        <test-method signature="browserOpen()[pri:1, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:24:20 CDT" name="browserOpen" finished-at="2023-05-29T18:24:21 CDT" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserOpen -->
+        <test-method signature="urlOpen()[pri:2, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:24:21 CDT" name="urlOpen" finished-at="2023-05-29T18:24:30 CDT" duration-ms="9440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlOpen -->
+        <test-method signature="clickCancel()[pri:3, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:24:30 CDT" name="clickCancel" finished-at="2023-05-29T18:24:31 CDT" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCancel -->
+        <test-method signature="flipkart()[pri:4, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:24:31 CDT" name="flipkart" finished-at="2023-05-29T18:24:48 CDT" duration-ms="17872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flipkart -->
+        <test-method signature="moveSlide()[pri:5, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:24:48 CDT" name="moveSlide" finished-at="2023-05-29T18:24:59 CDT" duration-ms="10513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveSlide -->
+        <test-method signature="clickSearch()[pri:6, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:24:59 CDT" name="clickSearch" finished-at="2023-05-29T18:25:09 CDT" duration-ms="10515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearch -->
+        <test-method signature="newTab()[pri:7, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:25:09 CDT" name="newTab" finished-at="2023-05-29T18:25:15 CDT" duration-ms="5052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newTab -->
+        <test-method signature="verifyPrice()[pri:8, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:25:15 CDT" name="verifyPrice" finished-at="2023-05-29T18:25:15 CDT" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPrice -->
+        <test-method signature="keyboardEvent()[pri:9, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:25:15 CDT" name="keyboardEvent" finished-at="2023-05-29T18:25:41 CDT" duration-ms="26119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- keyboardEvent -->
+        <test-method signature="cart()[pri:10, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:25:41 CDT" name="cart" finished-at="2023-05-29T18:25:41 CDT" duration-ms="142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cart -->
+        <test-method signature="closeBrowser()[pri:11, instance:flip_kart_tc.flip_kart_Test@184cf7cf]" started-at="2023-05-29T18:25:41 CDT" name="closeBrowser" finished-at="2023-05-29T18:25:46 CDT" duration-ms="5508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- flip_kart_tc.flip_kart_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
@@ -24,6 +25,12 @@ public class baseclass {
 		else if (browser.equalsIgnoreCase("firefox")) {
 			System.setProperty("webdriver.gecko.driver", "C:\\Users\\akeem\\eclipse-workspace\\flip_kart\\driver\\geckodriver.exe");
 			driver = new FirefoxDriver();
+			System.out.println(browser + " is up and running");
+			
+		}
+		else if (browser.equalsIgnoreCase("Edge")) {
+			System.setProperty("webdriver.edge.driver", "C:\\Users\\akeem\\eclipse-workspace\\flip_kart\\driver\\msedgedriver.exe");
+			driver = new EdgeDriver();
 			System.out.println(browser + " is up and running");
 			
 		}
